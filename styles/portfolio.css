@@ -19,6 +19,17 @@ body{
    
 }
 
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-des{
+    color: #757575;
+    text-align: center;
+    font-size: 25px;
+}
 /* nav related styles */
 nav{
     display: flex;
@@ -48,29 +59,66 @@ nav a {
 /* header related styles */
 .header{
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.banner-cantent{
+    max-width: 550px;
+    
 }
 .banner .profile-pic{
     width: 500px;
 }
 
-/* .hi{
+.hi{
     color: var(--dark-02, #474747);
-font-family: Open Sans;
-font-size: 45px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-size: 45px;
+    margin-bottom: 0;
+  
 }
 .mary{
-color: var(--dark-01, #181818);
-font-family: Open Sans;
-font-size: 85px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-} */
+    color: var(--dark-01, #181818);
+    font-size: 85px;
+    margin-top: 5px;
+}
+
+
+/* main sectdion styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+.about{
+    /* padding: 130px; */
+    border-radius: 10px;
+    background: #FFF8F3;
+    /* margin: 135px 345px; */
+}
+
+
+
+
+
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.about-info{
+    text-align: center;
+}
